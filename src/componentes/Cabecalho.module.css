@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #0f0f0f,  rgb(41, 2, 2));
+    height: 100px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat';
+    -webkit-text-stroke: 0.5px black;
+    font-size: 36px;
+    color: rgb(150, 15, 15);
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    display: flex;
+    margin-top: 10px;
+}
