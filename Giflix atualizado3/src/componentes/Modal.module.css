@@ -1,0 +1,100 @@
+.modalback{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContainer{
+    background-color: rgba(107, 107, 107, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    width: 70%;
+    max-width: 90%;
+    max-height: 95%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+}
+
+.ModalHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.modalHeader h2{
+    color: rgb(150, 15, 15);
+    -webkit-text-stroke: 0.5px black;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.ModalHeader h2{
+    color: rgb(199,184,100);
+    text-align: center;
+    flex-grow: 1;
+}
+
+.imgModal{
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.movieDetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+}
+
+.botaoModal{
+    background-color: rgb(68, 68, 68);
+    margin-left: 10%;
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 14px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.botaoModal:hover{
+    background-color: rgb(53, 53, 53);
+    transition: 0.5s ease;
+}
+
+.infoModal{
+    width: 300px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.img_text{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.imgDetalhes ul li{
+    color: white;
+}
+
+.imgDetalhes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
