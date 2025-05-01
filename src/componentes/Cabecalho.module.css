@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'bravecho';
+    src: url('../fontes/bravecho/Bravecho.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
 .container{
     display: flex;
     justify-content: center;
@@ -12,11 +19,12 @@ h1{
     -webkit-text-stroke: 0.5px black;
     font-size: 36px;
     color: rgb(150, 15, 15);
+    font-family: 'bravecho', sans-serif;
 }
 
 h3{
     color: rgb(255, 255, 255);
-    font-family: 'Montserrat';
+    font-family: 'Inter';
     display: flex;
     margin-top: 10px;
 }

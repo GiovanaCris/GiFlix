@@ -31,7 +31,7 @@
     margin-bottom: 15px;
 }
 
-h2{
+.modalHeader h2{
     color: rgb(150, 15, 15);
     -webkit-text-stroke: 0.5px black;
     display: flex;
@@ -60,7 +60,7 @@ h2{
     color:rgb(255, 255, 255);
 }
 
-button{
+.botaoModal{
     background-color: rgb(68, 68, 68);
     margin-left: 10%;
     border-radius: 50px;
@@ -72,7 +72,7 @@ button{
     align-self: flex-start;
 }
 
-button:hover{
+.botaoModal:hover{
     background-color: rgb(53, 53, 53);
     transition: 0.5s ease;
 }

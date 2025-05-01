@@ -10,7 +10,6 @@ export function Lista(){
     const[movies, setMovies] = useState([]);
     const [SelectedMovie, setSelectedMovie] = useState(null)
 
-    //()parametros {}script de programação , []dependencias
     useEffect(()=>{
         axios.get(`${API_URL}/movie/popular?api_key=${API_key}&language=pt-BR`)
             .then(response=>{
@@ -43,5 +42,4 @@ export function Lista(){
             {SelectedMovie && (<Modal movie={SelectedMovie} onClose = {handleCloseModal}/>)} 
         </div>
     )
-
 }
